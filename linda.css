@@ -1,0 +1,40 @@
+body {
+  background-image: url("pemandangan.jpg"); /* Ganti dengan nama file gambar latar belakang Anda */
+  background-size: cover; /* Memastikan gambar mengisi seluruh halaman */
+  background-position: center; /* Menempatkan gambar di tengah */
+  color: white; /* Mengubah warna teks menjadi putih untuk kontras yang lebih baik */
+  margin-top: 100px;
+  margin-bottom: 300px; /* Menghilangkan margin default */
+  font-family: Arial, sans-serif; /* Menetapkan font untuk halaman */
+}
+
+.container {
+  background-color: rgba(
+    255,
+    255,
+    255,
+    0.545
+  ); /* Latar belakang putih transparan untuk kontainer */
+  border-radius: 10px; /* Sudut membulat pada kontainer */
+  padding: 20px; /* Padding pada kontainer */
+  max-width: 1435px; /* Lebar maksimum kontainer */
+  margin-left: 50px;
+  margin-right: 500px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3); /* Menambahkan bayangan pada kontainer */
+}
+
+h1 {
+  color: #0f1a8c; /* Mengubah warna judul */
+  text-align: center; /* Memusatkan judul */
+}
+
+img {
+  width: 100%; /* Membuat gambar responsif */
+  height: auto; /* Memastikan aspek rasio gambar tetap terjaga */
+  border-radius: 50%; /* Membuat gambar berbentuk bulat */
+}
+
+.checkmark {
+  color: blue; /* Mengatur warna tanda centang menjadi biru */
+  font-size: 1.2em; /* Mengatur ukuran tanda centang jika perlu */
+}
